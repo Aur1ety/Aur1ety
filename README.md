@@ -1,10 +1,10 @@
 - 👋 Hi wssup gang Auriety here , hope evrything is fine :)
 - 👀 I’m interested in Tech a lot of Tech 
-- keepimg this small and simple, interestesd in video games , anime , computer hardware and cats>>
+- keeping this small and simple, interestesd in video games , anime , computer hardware and cats>>
 - 🌱 I’m currently learning ...
-- Let's say coding idnt my strong point , but im no stranger to creating UI's
+- Let's say coding idnt my strong point , but im no stranger to creating UI's or tweaking scripts :D
 - 📫 How to reach me LinkedIn and Insta in my bio..
-- 😄 Pronouns: ...Spider/Man cz hes he goat and so am i <3
+- 😄 Pronouns: ...Spider/Man cz hes the goat and so am i <3
 - ⚡ Fun fact: ...I can procrastinate procrastinating
 
 <!---
