@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/STATUS-ONLINE-39FF14?style=for-the-badge&labelColor=05010D"/>
 <img src="https://img.shields.io/badge/SECTOR-SPACE%20TECH-00F0FF?style=for-the-badge&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/NODE-NAVI%20MUMBAI-FF2E97?style=for-the-badge&labelColor=05010D"/>
+<img src="https://img.shields.io/badge/NODE-INDIA-FF2E97?style=for-the-badge&labelColor=05010D"/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2E97,50:B026FF,100:00F0FF&height=3&section=header" width="100%"/>
 
