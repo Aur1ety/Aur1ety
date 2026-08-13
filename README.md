@@ -30,7 +30,20 @@ root@aur1ety:~$ ./whoami --verbose
   [!!] sleep schedule ....................... NOT FOUND
 ```
 
-I build end-to-end machine learning systems for **space tech** and **healthcare**. The kind that run on real scientific data and get judged on blind hold-outs, not notebook accuracy. Most of my work lives at the messy end: raw instrument data, brutal class imbalance, and metrics that have to survive an audit.
+<table>
+<tr>
+<td width="60%" valign="middle">
+
+I build end-to-end machine learning systems for **space tech** and **healthcare**. The kind that run on real scientific data and get judged on blind hold-outs, not notebook accuracy.
+
+Most of my work lives at the messy end: raw instrument data, brutal class imbalance, and metrics that have to survive an audit.
+
+</td>
+<td width="40%" valign="middle">
+<img src="https://raw.githubusercontent.com/Aur1ety/Aur1ety/main/cat.gif" width="100%"/>
+</td>
+</tr>
+</table>
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:B026FF,100:FF2E97&height=3&section=header" width="100%"/></div>
 
@@ -153,8 +166,13 @@ Annotated and validated large-scale imaging datasets for an AI-driven breast can
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Aur1ety&show_icons=true&include_all_commits=true&bg_color=05010D&title_color=FF2E97&text_color=E0D7FF&icon_color=00F0FF&border_color=B026FF"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aur1ety&layout=compact&langs_count=8&bg_color=05010D&title_color=FF2E97&text_color=E0D7FF&border_color=B026FF"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aur1ety&theme=2077" width="98%"/>
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Aur1ety&theme=2077"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Aur1ety&theme=2077"/>
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Aur1ety&theme=2077"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aur1ety&utcOffset=5.5&theme=2077"/>
 
 <br/><br/>
 
