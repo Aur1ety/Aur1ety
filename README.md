@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:05010D,45:B026FF,100:FF2E97&height=210&section=header&text=ARINJAY%20PAWAR&fontSize=46&fontColor=00F0FF&fontAlignY=38&animation=fadeIn&desc=%5B%20SPACE%20WEATHER%20%2F%2F%20CLINICAL%20ML%20%5D&descAlignY=58&descSize=15" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:05010D,45:B026FF,100:FF2E97&height=210&section=header&text=ARINJAY&fontSize=64&fontColor=00F0FF&fontAlignY=37&animation=fadeIn&desc=%5B%20SPACE%20TECH%20%2F%2F%20HEALTHCARE%20%2F%2F%20DEEP%20LEARNING%20%5D&descAlignY=58&descSize=15" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=FF2E97&background=05010D00&center=true&vCenter=true&width=760&lines=%3E+forecasting+solar+flares+from+satellite+X-ray+telemetry;%3E+beat+the+published+SOTA+on+the+SWAN-SF+benchmark;%3E+time-series+deep+learning+on+real+spacecraft+data;%3E+AI%2FML+head+%40+google+developer+group" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=FF2E97&background=05010D00&center=true&vCenter=true&width=760&lines=%3E+AI%2FML+engineer+·+space+tech+%26+healthcare;%3E+deep+learning+on+real-world+scientific+data;%3E+time-series+·+forecasting+·+model+evaluation;%3E+AI%2FML+head+%40+google+developer+group" alt="typing"/>
 
 <br/>
 
@@ -18,25 +18,23 @@
 root@aur1ety:~$ ./whoami --verbose
 
   ┌─ IDENTITY ───────────────────────────────────────────┐
-  │  AI/ML Engineer  ·  Space Weather & Medical Imaging  │
+  │  AI/ML Engineer  ·  Space Tech & Healthcare          │
   │  B.Tech AI/ML  ·  RAIT, DY Patil University  ·  '27  │
   │  AI/ML Head  ·  Google Developer Group  (200+ devs)  │
   └──────────────────────────────────────────────────────┘
 
-  [OK] time-series deep learning ............ ONLINE
-  [OK] satellite telemetry pipelines ........ ONLINE
+  [OK] deep learning ........................ ONLINE
+  [OK] time-series & forecasting ............ ONLINE
   [OK] blind-holdout evaluation ............. ENFORCED
-  [OK] clinical ML deployment ............... ONLINE
+  [OK] production deployment ................ ONLINE
   [!!] sleep schedule ....................... NOT FOUND
 ```
 
-I build end-to-end ML systems for **space weather forecasting** and **medical imaging**. The kind that run on real spacecraft telemetry and get judged on blind hold-outs, not notebook accuracy. Most of my work lives at the messy end: raw Level-1 instrument data, 1-in-50 class imbalance, and metrics that have to survive an audit.
-
-I work across solar physics missions and open space-weather datasets from **NASA, NOAA and ISRO**, with clinical ML shipping on the side.
+I build end-to-end machine learning systems for **space tech** and **healthcare**. The kind that run on real scientific data and get judged on blind hold-outs, not notebook accuracy. Most of my work lives at the messy end: raw instrument data, brutal class imbalance, and metrics that have to survive an audit.
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:B026FF,100:FF2E97&height=3&section=header" width="100%"/></div>
 
-## `[ 01 ]` &nbsp;ORBITAL &nbsp;`//` &nbsp;SPACE WEATHER
+## `[ 01 ]` &nbsp;SPACE TECH
 
 <table>
 <tr>
@@ -95,7 +93,7 @@ Async CLI aggregating NOAA and NASA DONKI feeds, built for headless systems with
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2E97,50:B026FF,100:00F0FF&height=3&section=header" width="100%"/></div>
 
-## `[ 02 ]` &nbsp;BIOMETRIC &nbsp;`//` &nbsp;HEALTHCARE
+## `[ 02 ]` &nbsp;HEALTHCARE
 
 <table>
 <tr>
