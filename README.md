@@ -20,7 +20,7 @@
 <tr>
 <td>
 
-### ▓▒░ EOS 6 — THE FLAGSHIP
+### ▓▒░ EOS 6 — THE SOLAR FLARE FORECASTER AND NOWCASTER
 
 `raw data in — predictions out // task-routed mixture of experts`
 
