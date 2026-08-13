@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:05010D,45:B026FF,100:FF2E97&height=210&section=header&text=ARINJAY&fontSize=64&fontColor=00F0FF&fontAlignY=37&animation=fadeIn&desc=%5B%20SPACE%20TECH%20%2F%2F%20HEALTHCARE%20%2F%2F%20DEEP%20LEARNING%20%5D&descAlignY=58&descSize=15" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=FF2E97&background=05010D00&center=true&vCenter=true&width=760&lines=%3E+AI%2FML+engineer+·+space+tech+%26+healthcare;%3E+deep+learning+on+real-world+scientific+data;%3E+time-series+·+forecasting+·+model+evaluation;%3E+AI%2FML+head+%40+google+developer+group" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=FF2E97&center=true&vCenter=true&width=760&height=45&lines=%3E+AI%2FML+engineer+%7C+space+tech+%26+healthcare;%3E+deep+learning+on+real-world+scientific+data;%3E+time-series+%7C+forecasting+%7C+model+evaluation;%3E+AI%2FML+head+%40+google+developer+group" alt="typing"/>
 
 <br/>
 
@@ -72,7 +72,7 @@ Above the published attention-based SOTA (GCTAF 0.748). Leakage-audited, protoco
 
 1M+ 10-second magnetometer observations from L1 orbit into a real-time onset pipeline. Benchmarked 7 sequential architectures.
 
-<img src="https://img.shields.io/badge/F1_0.919_·_HSS_0.908-39FF14?style=flat-square&labelColor=05010D"/>
+<img src="https://img.shields.io/badge/F1_0.919_%7C_HSS_0.908-39FF14?style=flat-square&labelColor=05010D"/>
 
 False alarm rate 0.0044 on held-out data.
 
