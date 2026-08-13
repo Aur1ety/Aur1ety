@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:05010D,45:B026FF,100:FF2E97&height=200&section=header&text=ARINJAY&fontSize=66&fontColor=00F0FF&fontAlignY=42&animation=fadeIn" width="100%"/>
+
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=FF2E97&center=true&vCenter=true&width=760&height=45&lines=%3E+AI%2FML+engineer+%7C+space+tech+%26+healthcare;%3E+deep+learning+on+real-world+scientific+data;%3E+time-series+%7C+forecasting+%7C+model+evaluation;%3E+AI%2FML+head+%40+google+developer+group" alt="typing"/>
 
 <br/>
