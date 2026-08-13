@@ -48,7 +48,7 @@ Most of my work lives at the messy end: raw instrument data, brutal class imbala
 
 Hand it raw solar X-ray telemetry and it does the rest — builds its own features, routes them through every expert, and streams one combined result: what is flaring right now, and the probability of a major flare in the next 24 hours.
 
-<img src="https://img.shields.io/badge/NOWCAST%20%2B%2024H%20FORECAST-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/END--TO--END-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/SINGLE%20ENTRY%20POINT-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/EXPERTS-SPECTRA%20%2B%20LUMEN-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/OUTPUT-NOWCAST%20%2B%20P(24H)-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/DEPLOYED%20PACK-8.2%20MB-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ Hand it raw solar X-ray telemetry and it does the rest — builds its own featur
 
 Gradient-boosted ensemble over magnetogram-derived active-region features, with calibrated probabilities.
 
-<img src="https://img.shields.io/badge/TSS-0.811-E8FF4D?style=flat-square&labelColor=1F1F1F"/> <img src="https://img.shields.io/badge/SWAN--SF-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/TSS-0.811-E8FF4D?style=flat-square&labelColor=1F1F1F"/> <img src="https://img.shields.io/badge/ENSEMBLE-XGBOOST%20DART%20BAG-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/FEATURES-146-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/HORIZON-24H-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 <td width="50%" valign="top">
@@ -75,7 +75,7 @@ Gradient-boosted ensemble over magnetogram-derived active-region features, with 
 
 Twin temporal convolutional networks reading per-minute X-ray telemetry, one per channel.
 
-<img src="https://img.shields.io/badge/TCN-x2-E8FF4D?style=flat-square&labelColor=1F1F1F"/> <img src="https://img.shields.io/badge/PER--MINUTE-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/PARAMS-%7E146K%20EACH-E8FF4D?style=flat-square&labelColor=1F1F1F"/> <img src="https://img.shields.io/badge/WINDOW-120%20MIN-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/FEATURES-16%20%2F%2025-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/CADENCE-1%20MIN-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 </tr>
@@ -161,13 +161,13 @@ Beat XGBoost (0.210) and BiLSTM (0.195) on identical data. F1 sits near the phys
 </td>
 <td width="34%" valign="middle">
 
-<img src="https://img.shields.io/badge/BLIND%20DETECTION-0.8707-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
+<img src="https://img.shields.io/badge/BLIND%20P(CME)-0.8707-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
 <br/>
 <img src="https://img.shields.io/badge/VAL%20F1-0.318-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 <br/>
-<img src="https://img.shields.io/badge/TRAINING-44%2C103%20SEQUENCES-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/RECEPTIVE%20FIELD-10.6%20H-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 <br/>
-<img src="https://img.shields.io/badge/EVENT%20RATE-3.2%25-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/ENSEMBLE-0.7%20TCN%20%2B%200.3%20TCAN-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 </tr>
@@ -213,7 +213,9 @@ Cross-references patient prescription profiles against pharmacological datasets 
 
 <img src="https://img.shields.io/badge/STATUS-LIVE-39D353?style=flat-square&labelColor=1F1F1F"/>
 <br/>
-<img src="https://img.shields.io/badge/HEALTHCARE-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/FRONTEND-NEXT.JS%20%2F%20VERCEL-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<img src="https://img.shields.io/badge/BACKEND-FASTAPI%20%2F%20DOCKER-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 </tr>
