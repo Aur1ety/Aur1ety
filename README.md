@@ -1,178 +1,254 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:05010D,45:B026FF,100:FF2E97&height=200&section=header&text=ARINJAY&fontSize=66&fontColor=00F0FF&fontAlignY=42&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:05010D,40:B026FF,100:FF2E97&height=230&section=header&text=ARINJAY&fontSize=72&fontColor=00F0FF&fontAlignY=42&animation=fadeIn" width="100%"/>
 
-<img src="https://img.shields.io/badge/STATUS-ONLINE-39FF14?style=for-the-badge&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/SECTOR-SPACE%20TECH-00F0FF?style=for-the-badge&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/NODE-INDIA-FF2E97?style=for-the-badge&labelColor=05010D"/>
+<img src="https://img.shields.io/badge/SYS-ONLINE-39FF14?style=for-the-badge&labelColor=05010D"/>&nbsp;<img src="https://img.shields.io/badge/CLASS-AI%2FML%20ENGINEER-B026FF?style=for-the-badge&labelColor=05010D"/>&nbsp;<img src="https://img.shields.io/badge/SECTOR-SPACE%20TECH%20%2B%20HEALTHCARE-00F0FF?style=for-the-badge&labelColor=05010D"/>&nbsp;<img src="https://img.shields.io/badge/NODE-INDIA-FF2E97?style=for-the-badge&labelColor=05010D"/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2E97,50:B026FF,100:00F0FF&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,25:00F0FF,50:B026FF,75:FF2E97,100:05010D&height=3&section=header" width="100%"/>
 
 </div>
 
 ```console
-root@aur1ety:~$ ./whoami --verbose
+aur1ety@l1-station:~$ ./boot_sequence --identity
 
-  ┌─ IDENTITY ───────────────────────────────────────────┐
-  │  AI/ML Engineer  ·  Space Tech & Healthcare          │
-  │  B.Tech AI/ML  ·  RAIT, DY Patil University  ·  '27  │
-  │  AI/ML Head  ·  Google Developer Group  (200+ devs)  │
-  └──────────────────────────────────────────────────────┘
+  ┌──[ MANIFEST ]────────────────────────────────────────────
+  │
+  │   CLASS      AI/ML Engineer :: Space Tech x Healthcare
+  │   ACADEMY    B.Tech AI/ML :: RAIT, DY Patil University :: '27
+  │   GUILD      AI/ML Head :: Google Developer Group :: 200+ devs
+  │
+  └──────────────────────────────────────────────────────────
 
-  [OK] deep learning ........................ ONLINE
-  [OK] time-series & forecasting ............ ONLINE
-  [OK] blind-holdout evaluation ............. ENFORCED
-  [OK] production deployment ................ ONLINE
-  [!!] sleep schedule ....................... NOT FOUND
+  [ OK ] deep_learning .................................. ONLINE
+  [ OK ] time_series_forecasting ........................ ONLINE
+  [ OK ] blind_holdout_evaluation ....................... ENFORCED
+  [ OK ] production_deployment .......................... ONLINE
+  [FAIL] sleep_schedule ................................. NOT_FOUND
 ```
 
-<table>
+<table width="100%">
 <tr>
-<td width="60%" valign="middle">
+<td width="58%" valign="middle">
 
-I build end-to-end machine learning systems for **space tech** and **healthcare**. The kind that run on real scientific data and get judged on blind hold-outs, not notebook accuracy.
+I build end-to-end machine learning systems for **space tech** and **healthcare** — the kind that run on real scientific data and get judged on blind hold-outs, not notebook accuracy.
 
 Most of my work lives at the messy end: raw instrument data, brutal class imbalance, and metrics that have to survive an audit.
 
 </td>
-<td width="40%" valign="middle">
-<img src="https://raw.githubusercontent.com/Aur1ety/Aur1ety/main/cat.gif" width="100%"/>
+<td width="42%" align="center" valign="middle">
+
+<img src="https://raw.githubusercontent.com/Aur1ety/Aur1ety/main/cat.gif" width="92%"/>
+<br/>
+<sub><code>chief_morale_officer.exe — always running</code></sub>
+
 </td>
 </tr>
 </table>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:B026FF,100:FF2E97&height=3&section=header" width="100%"/></div>
+<div align="center"><sub><code>// measured, not promised</code></sub></div>
 
-## `[ 01 ]` &nbsp;SPACE TECH
-
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="25%" align="center">
 
-### ▰ ROENTGEN
-`solar flare nowcast + 24h forecast`
+# `0.811`
 
-Mixture-of-experts on dual-channel solar X-ray telemetry (soft + hard). Two TCN nowcasters, a gradient-boosted forecaster, and an independently built flare catalogue.
-
-<img src="https://img.shields.io/badge/TSS_0.811_on_SWAN--SF-39FF14?style=flat-square&labelColor=05010D"/>
-
-Above the published attention-based SOTA (GCTAF 0.748). Leakage-audited, protocol-matched.
-
-<sub>`PyTorch` `XGBoost` `15,550-event catalogue`</sub>
+<sub>TSS · SWAN-SF<br/>solar flare forecasting</sub>
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" align="center">
 
-### ▰ MAGNUSON
-`geomagnetic storm onset forecasting`
+# `0.919`
 
-1M+ 10-second magnetometer observations from L1 orbit into a real-time onset pipeline. Benchmarked 7 sequential architectures.
+<sub>F1 · geomagnetic<br/>storm onset</sub>
 
-<img src="https://img.shields.io/badge/F1_0.919_%7C_HSS_0.908-39FF14?style=flat-square&labelColor=05010D"/>
+</td>
+<td width="25%" align="center">
 
-False alarm rate 0.0044 on held-out data.
+# `0.0044`
 
-<sub>`PatchTransformer` `HMM` `Viterbi decoding`</sub>
+<sub>false alarm rate<br/>on held-out data</sub>
+
+</td>
+<td width="25%" align="center">
+
+# `15,550`
+
+<sub>events · independent<br/>flare catalogue</sub>
 
 </td>
 </tr>
+</table>
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,12:05010D,88:05010D,100:00F0FF&height=100&section=header&text=SYS.01%20%2F%2F%20SPACE%20TECH&fontSize=30&fontColor=00F0FF&fontAlignY=52" width="100%" alt="SYS.01 // SPACE TECH"/></div>
+
+<table width="100%">
+<tr>
+<td width="66%" valign="top">
+
+### ▓▒░ ROENTGEN
+
+`mixture-of-experts // solar flare nowcast + 24h forecast`
+
+Dual-channel solar X-ray telemetry (soft + hard) feeding two TCN nowcasters and a gradient-boosted forecaster, backed by an independently built flare catalogue. Clear of the published attention-based SOTA on SWAN-SF — leakage-audited, protocol-matched.
+
+<img src="https://img.shields.io/badge/PYTORCH-00F0FF?style=flat-square"/> <img src="https://img.shields.io/badge/XGBOOST-00F0FF?style=flat-square"/> <img src="https://img.shields.io/badge/DUAL%20TCN%20%2B%20GBM-00F0FF?style=flat-square"/>
+
+</td>
+<td width="34%" align="center" valign="middle">
+
+<img src="https://img.shields.io/badge/SWAN--SF%20TSS-0.811-39FF14?style=for-the-badge&labelColor=05010D"/>
+<br/>
+<img src="https://img.shields.io/badge/SOTA%20BASELINE-GCTAF%200.748-B026FF?style=for-the-badge&labelColor=05010D"/>
+<br/>
+<img src="https://img.shields.io/badge/CATALOGUE-15%2C550%20EVENTS-39FF14?style=for-the-badge&labelColor=05010D"/>
+
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="66%" valign="top">
+
+### ▓▒░ MAGNUSON
+
+`geomagnetic storm onset forecasting`
+
+1M+ 10-second magnetometer observations from L1 orbit driving a real-time onset pipeline. Benchmarked seven sequential architectures; false alarm rate of 0.0044 on held-out data.
+
+<img src="https://img.shields.io/badge/PATCHTRANSFORMER-00F0FF?style=flat-square"/> <img src="https://img.shields.io/badge/HMM-00F0FF?style=flat-square"/> <img src="https://img.shields.io/badge/VITERBI%20DECODING-00F0FF?style=flat-square"/>
+
+</td>
+<td width="34%" align="center" valign="middle">
+
+<img src="https://img.shields.io/badge/F1-0.919-39FF14?style=for-the-badge&labelColor=05010D"/>
+<br/>
+<img src="https://img.shields.io/badge/HSS-0.908-39FF14?style=for-the-badge&labelColor=05010D"/>
+<br/>
+<img src="https://img.shields.io/badge/FALSE%20ALARM%20RATE-0.0044-39FF14?style=for-the-badge&labelColor=05010D"/>
+
+</td>
+</tr>
+</table>
+
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### ▰ CME DETECTION
+#### ▒░ CME DETECTION
+
 `coronal mass ejection prediction`
 
-Plasma-based predictor on Level-2 solar wind variables: bulk velocity, proton density, thermal temperature, ionic ratios.
+Plasma-based predictor on Level-2 solar wind variables — bulk velocity, proton density, thermal temperature, ionic ratios — under extreme class imbalance.
 
-<sub>`TCN + TCAN` `focal loss` `extreme imbalance`</sub>
+<img src="https://img.shields.io/badge/TCN%20%2B%20TCAN-00F0FF?style=flat-square"/> <img src="https://img.shields.io/badge/FOCAL%20LOSS-00F0FF?style=flat-square"/>
 
 </td>
 <td width="50%" valign="top">
 
-### ▰ SPACE WEATHER CLI
+#### ▒░ SPACE WEATHER CLI
+
 `live interplanetary telemetry`
 
 Async CLI aggregating NOAA and NASA DONKI feeds, built for headless systems with zero graphical dependencies.
 
-<sub>`Python` `Rich` `asyncio`</sub>
+<img src="https://img.shields.io/badge/PYTHON-00F0FF?style=flat-square"/> <img src="https://img.shields.io/badge/RICH-00F0FF?style=flat-square"/> <img src="https://img.shields.io/badge/ASYNCIO-00F0FF?style=flat-square"/>
 
 </td>
 </tr>
 </table>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2E97,50:B026FF,100:00F0FF&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,50:00F0FF,100:05010D&height=3&section=header" width="100%"/></div>
 
-## `[ 02 ]` &nbsp;HEALTHCARE
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2E97,12:05010D,88:05010D,100:FF2E97&height=100&section=header&text=SYS.02%20%2F%2F%20HEALTHCARE&fontSize=30&fontColor=FF2E97&fontAlignY=52" width="100%" alt="SYS.02 // HEALTHCARE"/></div>
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="66%" valign="top">
 
-### ▰ NEUROPHARMA &nbsp;<img src="https://img.shields.io/badge/LIVE-39FF14?style=flat-square&labelColor=05010D"/>
+### ▓▒░ NEUROPHARMA
+
 `drug-drug interaction risk engine`
 
-Cross-references patient prescription profiles against pharmacological datasets and generates automated hazard alerts for clinical review.
+Cross-references patient prescription profiles against pharmacological datasets and generates automated hazard alerts for clinical review. Frontend on Vercel, containerized API on Hugging Face.
 
-<sub>`Next.js / Vercel` `FastAPI + Docker / Hugging Face`</sub>
+<img src="https://img.shields.io/badge/NEXT.JS-FF2E97?style=flat-square"/> <img src="https://img.shields.io/badge/VERCEL-FF2E97?style=flat-square"/> <img src="https://img.shields.io/badge/FASTAPI-FF2E97?style=flat-square"/> <img src="https://img.shields.io/badge/DOCKER-FF2E97?style=flat-square"/> <img src="https://img.shields.io/badge/HUGGING%20FACE-FF2E97?style=flat-square"/>
 
 </td>
-<td width="50%" valign="top">
+<td width="34%" align="center" valign="middle">
 
-### ▰ CLINICAL DATA QA
-`mammography & X-ray pipelines`
+<img src="https://img.shields.io/badge/STATUS-LIVE-39FF14?style=for-the-badge&labelColor=05010D"/>
+
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="66%" valign="top">
+
+### ▓▒░ CLINICAL DATA QA
+
+`mammography + X-ray pipelines`
 
 Annotated and validated large-scale imaging datasets for an AI-driven breast cancer detection system, building QA checks alongside medical and engineering teams.
 
-<sub>`Pulse Hitech` `Data Analyst Intern`</sub>
+<img src="https://img.shields.io/badge/MAMMOGRAPHY-FF2E97?style=flat-square"/> <img src="https://img.shields.io/badge/X--RAY-FF2E97?style=flat-square"/>
+
+</td>
+<td width="34%" align="center" valign="middle">
+
+<img src="https://img.shields.io/badge/PULSE%20HITECH-DATA%20ANALYST%20INTERN-39FF14?style=for-the-badge&labelColor=05010D"/>
 
 </td>
 </tr>
 </table>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:B026FF,100:FF2E97&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,50:FF2E97,100:05010D&height=3&section=header" width="100%"/></div>
 
-## `[ 03 ]` &nbsp;LOADOUT
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:B026FF,12:05010D,88:05010D,100:B026FF&height=100&section=header&text=SYS.03%20%2F%2F%20LOADOUT&fontSize=30&fontColor=B026FF&fontAlignY=52" width="100%" alt="SYS.03 // LOADOUT"/></div>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,fastapi,docker,postgres&theme=dark" /><br/>
-<img src="https://skillicons.dev/icons?i=nextjs,react,ts,git,linux,vercel&theme=dark" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/XGBoost-FF2E97?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/LightGBM-FF2E97?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/Transformers-B026FF?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/TCN-B026FF?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/TFT-B026FF?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/HMM-B026FF?style=flat-square&labelColor=05010D"/>
-<br/>
-<img src="https://img.shields.io/badge/NumPy-00F0FF?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/Pandas-00F0FF?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/SciPy-00F0FF?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/xarray-00F0FF?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/Hugging%20Face-39FF14?style=flat-square&labelColor=05010D"/>
-<img src="https://img.shields.io/badge/LaTeX-39FF14?style=flat-square&labelColor=05010D"/>
+<table>
+<tr>
+<td align="right" valign="middle"><kbd>&nbsp;CORE&nbsp;</kbd></td>
+<td><img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,fastapi,docker,postgres&theme=dark"/></td>
+</tr>
+<tr>
+<td align="right" valign="middle"><kbd>&nbsp;WEB / OPS&nbsp;</kbd></td>
+<td><img src="https://skillicons.dev/icons?i=nextjs,react,ts,git,linux,vercel&theme=dark"/></td>
+</tr>
+<tr>
+<td align="right" valign="middle"><kbd>&nbsp;MODELS&nbsp;</kbd></td>
+<td><img src="https://img.shields.io/badge/XGBOOST-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/LIGHTGBM-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/TRANSFORMERS-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/TCN-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/TFT-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/HMM-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/HUGGING%20FACE-B026FF?style=flat-square"/></td>
+</tr>
+<tr>
+<td align="right" valign="middle"><kbd>&nbsp;SCIENCE&nbsp;</kbd></td>
+<td><img src="https://img.shields.io/badge/NUMPY-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/PANDAS-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/SCIPY-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/XARRAY-B026FF?style=flat-square"/> <img src="https://img.shields.io/badge/LATEX-B026FF?style=flat-square"/></td>
+</tr>
+</table>
 
 </div>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2E97,50:B026FF,100:00F0FF&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,50:B026FF,100:05010D&height=3&section=header" width="100%"/></div>
 
-## `[ 04 ]` &nbsp;TELEMETRY
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:39FF14,12:05010D,88:05010D,100:39FF14&height=100&section=header&text=SYS.04%20%2F%2F%20TELEMETRY&fontSize=30&fontColor=39FF14&fontAlignY=52" width="100%" alt="SYS.04 // TELEMETRY"/></div>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aur1ety&theme=2077" width="98%"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aur1ety&show_icons=true&hide_border=true&include_all_commits=true&bg_color=05010D&title_color=00F0FF&text_color=C9C9D6&icon_color=FF2E97&ring_color=39FF14" alt="github stats"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=Aur1ety&hide_border=true&background=05010D&stroke=B026FF&ring=39FF14&fire=FF2E97&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=FF2E97&sideLabels=B026FF&dates=7A7A8C" alt="streak"/>
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Aur1ety&theme=2077"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Aur1ety&theme=2077"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aur1ety&theme=2077" width="98%" alt="profile details"/>
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Aur1ety&theme=2077"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aur1ety&utcOffset=5.5&theme=2077"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aur1ety&layout=compact&hide_border=true&langs_count=8&bg_color=05010D&title_color=00F0FF&text_color=C9C9D6" alt="top languages"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aur1ety&utcOffset=5.5&theme=2077" alt="productive time"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aur1ety&graph_type=bar&bg_color=05010D&color=00F0FF&line=FF2E97&point=39FF14&title_color=FF2E97&border_color=B026FF&custom_title=COMMIT%20FREQUENCY" width="98%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aur1ety&graph_type=bar&hide_border=true&bg_color=05010D&color=00F0FF&line=FF2E97&point=39FF14&title_color=39FF14&border_color=05010D&custom_title=COMMIT%20TELEMETRY" width="98%" alt="commit telemetry"/>
 
 <br/><br/>
 
@@ -184,31 +260,36 @@ Annotated and validated large-scale imaging datasets for an AI-driven breast can
 
 </div>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:B026FF,100:FF2E97&height=3&section=header" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,50:39FF14,100:05010D&height=3&section=header" width="100%"/></div>
 
-## `[ 05 ]` &nbsp;RUNNING PROCESSES
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,12:05010D,88:05010D,100:FF2E97&height=100&section=header&text=SYS.05%20%2F%2F%20DAEMONS%20%2B%20UPLINK&fontSize=30&fontColor=B026FF&fontAlignY=52" width="100%" alt="SYS.05 // DAEMONS + UPLINK"/></div>
 
-```yaml
-building:   Eos — fusing X-ray nowcasting with magnetogram-based 24h forecasting
-writing:    a paper on the SWAN-SF result + an independent solar flare catalogue
-curious:    neuromorphic computing, LLM agent architectures, MLOps at scale
-open_to:    AI/ML roles in space tech, scientific computing, and clinical ML
+```console
+aur1ety@l1-station:~$ ps -A --sort=priority
+
+  PID     STATE    PROCESS
+  ────────────────────────────────────────────────────────────────────
+  0x01    RUN      eos — fusing X-ray nowcasting with magnetogram-based 24h forecasting
+  0x02    RUN      paper — the SWAN-SF result + an independent solar flare catalogue
+  0x03    POLL     curiosity — neuromorphic computing, LLM agent architectures, MLOps at scale
+  0x04    LISTEN   open_to — AI/ML roles in space tech, scientific computing, clinical ML
+  0x05    BG       life — anime, games, and being thoroughly outranked by my cats
 ```
-
-<sub>`background_process:` anime, games, and being thoroughly outranked by my cats.</sub>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2E97,50:B026FF,100:00F0FF&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,25:00F0FF,50:B026FF,75:FF2E97,100:05010D&height=3&section=header" width="100%"/>
 
-### `>` ESTABLISH CONNECTION
+### ▓▒░ ESTABLISH UPLINK ░▒▓
 
-<a href="https://linkedin.com/in/arinjaypawar"><img src="https://img.shields.io/badge/LINKEDIN-05010D?style=for-the-badge&logo=linkedin&logoColor=00F0FF"/></a>
-<a href="mailto:pawararinjay06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-05010D?style=for-the-badge&logo=gmail&logoColor=FF2E97"/></a>
-<a href="https://github.com/Aur1ety"><img src="https://img.shields.io/badge/GITHUB-05010D?style=for-the-badge&logo=github&logoColor=39FF14"/></a>
+<a href="https://linkedin.com/in/arinjaypawar"><img src="https://img.shields.io/badge/LINKEDIN-00F0FF?style=for-the-badge&logo=linkedin&logoColor=05010D"/></a>&nbsp;
+<a href="mailto:pawararinjay06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF2E97?style=for-the-badge&logo=gmail&logoColor=05010D"/></a>&nbsp;
+<a href="https://github.com/Aur1ety"><img src="https://img.shields.io/badge/GITHUB-39FF14?style=for-the-badge&logo=github&logoColor=05010D"/></a>
 
-<br/><br/>
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:FF2E97,55:B026FF,100:05010D&height=120&section=footer"/>
+<sub><code>[EOF] // connection closed by remote host — see you in orbit</code></sub>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00F0FF,50:B026FF,100:05010D&height=130&section=footer" width="100%"/>
 
 </div>
