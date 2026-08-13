@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1F1F1F,50:2A2A2A,100:1F1F1F&height=160&section=header&text=AUR1ETY&fontSize=58&fontColor=E8FF4D&fontAlignY=52" width="100%" alt="AUR1ETY"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1F1F1F,50:2A2A2A,100:1F1F1F&height=160&section=header&text=AURIETY&fontSize=58&fontColor=E8FF4D&fontAlignY=52" width="100%" alt="AURIETY"/>
 
 <img src="https://img.shields.io/badge/AI%2FML%20ENGINEER-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 <img src="https://img.shields.io/badge/SPACE%20TECH%20%2B%20HEALTHCARE-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
