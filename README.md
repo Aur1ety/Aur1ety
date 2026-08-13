@@ -8,6 +8,55 @@
 
 </div>
 
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,12:05010D,88:05010D,100:FF2E97&height=100&section=header&text=INTRODUCING%20%2F%2F%20EOS%206&fontSize=30&fontColor=39FF14&fontAlignY=52" width="100%" alt="INTRODUCING // EOS 6"/></div>
+
+<table width="100%">
+<tr>
+<td>
+
+### ▓▒░ EOS 6 — THE FLAGSHIP
+
+`raw data in — predictions out // task-routed mixture of experts`
+
+Hand it raw solar X-ray telemetry and it does the rest: builds its own features, routes them through every expert, and streams one combined picture — **what is flaring right now** and **the probability of a major flare in the next 24 hours**. Nowcast and forecast, one load, one call.
+
+<img src="https://img.shields.io/badge/MIXTURE--OF--EXPERTS-39FF14?style=flat-square"/> <img src="https://img.shields.io/badge/NOWCAST%20%2B%2024H%20FORECAST-39FF14?style=flat-square"/> <img src="https://img.shields.io/badge/END--TO--END-39FF14?style=flat-square"/>
+
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+#### ▒░ LUMEN 6*
+
+`the forecast expert // P(M-class in 24h)`
+
+Gradient-boosted ensemble over magnetogram-derived active-region features with calibrated probabilities — **TSS 0.811 on SWAN-SF**, above the published attention-based SOTA.
+
+<img src="https://img.shields.io/badge/XGBOOST-39FF14?style=flat-square"/> <img src="https://img.shields.io/badge/CALIBRATED-39FF14?style=flat-square"/> <img src="https://img.shields.io/badge/24H%20HORIZON-39FF14?style=flat-square"/>
+
+</td>
+<td width="50%" valign="top">
+
+#### ▒░ SPECTRA 6*
+
+`the nowcast experts // soft + hard X-ray`
+
+Twin temporal convolutional networks reading per-minute X-ray telemetry — one per channel — classifying live flare state and class as it happens.
+
+<img src="https://img.shields.io/badge/TCN%20x2-39FF14?style=flat-square"/> <img src="https://img.shields.io/badge/PER--MINUTE-39FF14?style=flat-square"/> <img src="https://img.shields.io/badge/DUAL%20CHANNEL-39FF14?style=flat-square"/>
+
+</td>
+</tr>
+</table>
+
+<div align="center"><sub><code>* work in progress</code></sub></div>
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,50:39FF14,100:05010D&height=3&section=header" width="100%"/></div>
+
 ```console
 aur1ety@l1-station:~$ ./boot_sequence --identity
 
@@ -15,7 +64,6 @@ aur1ety@l1-station:~$ ./boot_sequence --identity
   │
   │   CLASS      AI/ML Engineer :: Space Tech x Healthcare
   │   ACADEMY    B.Tech AI/ML :: RAIT, DY Patil University :: '27
-  │   GUILD      AI/ML Head :: Google Developer Group :: 200+ devs
   │
   └──────────────────────────────────────────────────────────
 
@@ -40,41 +88,6 @@ Most of my work lives at the messy end: raw instrument data, brutal class imbala
 <img src="https://raw.githubusercontent.com/Aur1ety/Aur1ety/main/cat.gif" width="92%"/>
 <br/>
 <sub><code>chief_morale_officer.exe — always running</code></sub>
-
-</td>
-</tr>
-</table>
-
-<div align="center"><sub><code>// measured, not promised</code></sub></div>
-
-<table width="100%">
-<tr>
-<td width="25%" align="center">
-
-# `0.811`
-
-<sub>TSS · SWAN-SF<br/>solar flare forecasting</sub>
-
-</td>
-<td width="25%" align="center">
-
-# `0.919`
-
-<sub>F1 · geomagnetic<br/>storm onset</sub>
-
-</td>
-<td width="25%" align="center">
-
-# `0.0044`
-
-<sub>false alarm rate<br/>on held-out data</sub>
-
-</td>
-<td width="25%" align="center">
-
-# `15,550`
-
-<sub>events · independent<br/>flare catalogue</sub>
 
 </td>
 </tr>
@@ -184,27 +197,6 @@ Cross-references patient prescription profiles against pharmacological datasets 
 </tr>
 </table>
 
-<table width="100%">
-<tr>
-<td width="66%" valign="top">
-
-### ▓▒░ CLINICAL DATA QA
-
-`mammography + X-ray pipelines`
-
-Annotated and validated large-scale imaging datasets for an AI-driven breast cancer detection system, building QA checks alongside medical and engineering teams.
-
-<img src="https://img.shields.io/badge/MAMMOGRAPHY-FF2E97?style=flat-square"/> <img src="https://img.shields.io/badge/X--RAY-FF2E97?style=flat-square"/>
-
-</td>
-<td width="34%" align="center" valign="middle">
-
-<img src="https://img.shields.io/badge/PULSE%20HITECH-DATA%20ANALYST%20INTERN-39FF14?style=for-the-badge&labelColor=05010D"/>
-
-</td>
-</tr>
-</table>
-
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,50:FF2E97,100:05010D&height=3&section=header" width="100%"/></div>
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:B026FF,12:05010D,88:05010D,100:B026FF&height=100&section=header&text=SYS.03%20%2F%2F%20LOADOUT&fontSize=30&fontColor=B026FF&fontAlignY=52" width="100%" alt="SYS.03 // LOADOUT"/></div>
@@ -259,22 +251,6 @@ Annotated and validated large-scale imaging datasets for an AI-driven breast can
 </picture>
 
 </div>
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,50:39FF14,100:05010D&height=3&section=header" width="100%"/></div>
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,12:05010D,88:05010D,100:FF2E97&height=100&section=header&text=SYS.05%20%2F%2F%20DAEMONS%20%2B%20UPLINK&fontSize=30&fontColor=B026FF&fontAlignY=52" width="100%" alt="SYS.05 // DAEMONS + UPLINK"/></div>
-
-```console
-aur1ety@l1-station:~$ ps -A --sort=priority
-
-  PID     STATE    PROCESS
-  ────────────────────────────────────────────────────────────────────
-  0x01    RUN      eos — fusing X-ray nowcasting with magnetogram-based 24h forecasting
-  0x02    RUN      paper — the SWAN-SF result + an independent solar flare catalogue
-  0x03    POLL     curiosity — neuromorphic computing, LLM agent architectures, MLOps at scale
-  0x04    LISTEN   open_to — AI/ML roles in space tech, scientific computing, clinical ML
-  0x05    BG       life — anime, games, and being thoroughly outranked by my cats
-```
 
 <div align="center">
 
