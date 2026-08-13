@@ -146,18 +146,36 @@ Mixture-of-experts over dual-channel solar X-ray telemetry, soft and hard: two T
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="66%" valign="top">
 
 **CME DETECTION**
 
-<sub>`coronal mass ejection prediction`</sub>
+<sub>`autonomous coronal mass ejection detection`</sub>
 
-Plasma-based predictor on Level-2 solar wind variables — bulk velocity, proton density, thermal temperature, ionic ratios — trained under extreme class imbalance.
+Two-model TCN + TCAN ensemble over in-situ solar wind plasma at L1 — bulk velocity, proton density, thermal temperature, helium-to-proton ratio and their gradients. Causal dilated convolutions give a 10.6-hour receptive field, so the model only ever looks backwards and stays valid for real-time use.
 
-<img src="https://img.shields.io/badge/tcn%20%2B%20tcan-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/focal%20loss-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+Beat XGBoost (0.210) and BiLSTM (0.195) on identical data. F1 sits near the physical ceiling for single-point plasma sensing — 30 to 50% of CMEs are stealth events that leave no plasma precursor at all. On the unseen May 2026 eruption it peaked at P = 0.8707, corroborated by a helium-to-proton ratio of 0.2965, roughly 7x the quiet-wind baseline.
+
+<img src="https://img.shields.io/badge/tcn%20%2B%20tcan-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/causal%20dilated%20conv-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/weighted%20bce-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
-<td width="50%" valign="top">
+<td width="34%" valign="middle">
+
+<img src="https://img.shields.io/badge/BLIND%20DETECTION-0.8707-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
+<br/>
+<img src="https://img.shields.io/badge/VAL%20F1-0.318-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<img src="https://img.shields.io/badge/TRAINING-44%2C103%20SEQUENCES-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<img src="https://img.shields.io/badge/EVENT%20RATE-3.2%25-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="66%" valign="top">
 
 **SPACE WEATHER CLI**
 
@@ -166,6 +184,13 @@ Plasma-based predictor on Level-2 solar wind variables — bulk velocity, proton
 Async CLI aggregating NOAA and NASA DONKI feeds, built for headless systems with zero graphical dependencies.
 
 <img src="https://img.shields.io/badge/python-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/rich-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/asyncio-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+
+</td>
+<td width="34%" valign="middle">
+
+<img src="https://img.shields.io/badge/FEEDS-NOAA%20%2B%20NASA%20DONKI-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<img src="https://img.shields.io/badge/HEADLESS-ZERO%20GUI%20DEPS-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 </tr>
@@ -225,7 +250,6 @@ Cross-references patient prescription profiles against pharmacological datasets 
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Aur1ety&theme=gruvbox"/>
 
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Aur1ety&theme=gruvbox"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aur1ety&utcOffset=5.5&theme=gruvbox"/>
 
 <br/>
 
@@ -246,13 +270,3 @@ CURIOUS     neuromorphic computing · LLM agent architectures · MLOps at scale
 OPEN TO     AI/ML roles in space tech, scientific computing, and clinical ML
 BACKGROUND  anime, games, and being thoroughly outranked by my cats
 ```
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1F1F1F,50:E8FF4D,100:1F1F1F&height=3&section=footer" width="100%"/>
-
-<a href="https://linkedin.com/in/arinjaypawar"><img src="https://img.shields.io/badge/LINKEDIN-E8FF4D?style=for-the-badge&logo=linkedin&logoColor=1F1F1F"/></a>
-<a href="mailto:pawararinjay06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-2E2E2E?style=for-the-badge&logo=gmail&logoColor=E8FF4D"/></a>
-<a href="https://github.com/Aur1ety"><img src="https://img.shields.io/badge/GITHUB-2E2E2E?style=for-the-badge&logo=github&logoColor=E8FF4D"/></a>
-
-</div>
