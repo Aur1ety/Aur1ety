@@ -1,10 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:05010D,40:B026FF,100:FF2E97&height=230&section=header&text=ARINJAY&fontSize=72&fontColor=00F0FF&fontAlignY=42&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:05010D,40:B026FF,100:FF2E97&height=230&section=header&text=AUR1ETY&fontSize=72&fontColor=00F0FF&fontAlignY=42&animation=fadeIn" width="100%"/>
 
 <img src="https://img.shields.io/badge/SYS-ONLINE-39FF14?style=for-the-badge&labelColor=05010D"/>&nbsp;<img src="https://img.shields.io/badge/CLASS-AI%2FML%20ENGINEER-B026FF?style=for-the-badge&labelColor=05010D"/>&nbsp;<img src="https://img.shields.io/badge/SECTOR-SPACE%20TECH%20%2B%20HEALTHCARE-00F0FF?style=for-the-badge&labelColor=05010D"/>&nbsp;<img src="https://img.shields.io/badge/NODE-INDIA-FF2E97?style=for-the-badge&labelColor=05010D"/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,25:00F0FF,50:B026FF,75:FF2E97,100:05010D&height=3&section=header" width="100%"/>
+
+### ▓▒░ ESTABLISH UPLINK ░▒▓
+
+<a href="https://linkedin.com/in/arinjaypawar"><img src="https://img.shields.io/badge/LINKEDIN-00F0FF?style=for-the-badge&logo=linkedin&logoColor=05010D"/></a>&nbsp;
+<a href="mailto:pawararinjay06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF2E97?style=for-the-badge&logo=gmail&logoColor=05010D"/></a>&nbsp;
+<a href="https://github.com/Aur1ety"><img src="https://img.shields.io/badge/GITHUB-39FF14?style=for-the-badge&logo=github&logoColor=05010D"/></a>
 
 </div>
 
@@ -255,14 +261,6 @@ Cross-references patient prescription profiles against pharmacological datasets 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:05010D,25:00F0FF,50:B026FF,75:FF2E97,100:05010D&height=3&section=header" width="100%"/>
-
-### ▓▒░ ESTABLISH UPLINK ░▒▓
-
-<a href="https://linkedin.com/in/arinjaypawar"><img src="https://img.shields.io/badge/LINKEDIN-00F0FF?style=for-the-badge&logo=linkedin&logoColor=05010D"/></a>&nbsp;
-<a href="mailto:pawararinjay06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF2E97?style=for-the-badge&logo=gmail&logoColor=05010D"/></a>&nbsp;
-<a href="https://github.com/Aur1ety"><img src="https://img.shields.io/badge/GITHUB-39FF14?style=for-the-badge&logo=github&logoColor=05010D"/></a>
-
-<br/>
 
 <sub><code>[EOF] // connection closed by remote host — see you in orbit</code></sub>
 
