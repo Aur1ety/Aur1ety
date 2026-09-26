@@ -123,22 +123,28 @@ Mixture-of-experts over dual-channel solar X-ray telemetry, soft and hard: two T
 <tr>
 <td width="66%" valign="top">
 
-**MAGNUSON**
+**EINTHOVEN**
 
-<sub>`geomagnetic storm onset forecasting`</sub>
+<sub>`ecg pathology detection + dataset audit`</sub>
 
-1M+ 10-second magnetometer observations from L1 orbit driving a real-time onset pipeline, with seven sequential architectures benchmarked head to head.
+A 1D ResNet from the PTB-XL benchmark sorting 12-lead ECGs into five diagnostic superclasses, tested on PTB-XL's official patient-stratified test fold (2,158 ECGs) and reproduced exactly from saved predictions. Adding three 3D heart-vector (VCG) channels was a null result: +0.00055 AUC, with a 95% CI that crosses zero.
 
-<img src="https://img.shields.io/badge/patchtransformer-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/hmm-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/viterbi-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+An Einthoven's-law audit of all 21,799 PTB-XL recordings flags 57 (0.26%) whose limb leads disagree, and PTB-XL's own noise labels don't predict which. The audit CSV is released. The website shows 100 test ECGs on clinical paper with the model's scores and a rotatable 3D heart-vector view.
+
+<img src="https://img.shields.io/badge/pytorch-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/ptb--xl-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/react%20%2B%20vite-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 <td width="34%" valign="middle">
 
-<img src="https://img.shields.io/badge/F1-0.919-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
+<img src="https://img.shields.io/badge/MACRO%20AUC-0.930-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
 <br/>
-<img src="https://img.shields.io/badge/HSS-0.908-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
+<img src="https://img.shields.io/badge/AUDITED-21%2C799%20ECGS-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 <br/>
-<img src="https://img.shields.io/badge/FALSE%20ALARM%20RATE-0.0044-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/FLAGGED-57%20(0.26%25)-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<a href="https://einthoven-aurasaur.vercel.app"><img src="https://img.shields.io/badge/WEBSITE-ECG%20EXPLORER-2E2E2E?style=flat-square&labelColor=2E2E2E"/></a>
+<br/>
+<a href="https://github.com/Aur1ety/Einthoven-model-for-cardiac-arrhythmia-and-pathology-detection"><img src="https://img.shields.io/badge/CODE-GITHUB-2E2E2E?style=flat-square&logo=github&logoColor=E8FF4D&labelColor=1F1F1F"/></a>
 
 </td>
 </tr>
@@ -148,49 +154,26 @@ Mixture-of-experts over dual-channel solar X-ray telemetry, soft and hard: two T
 <tr>
 <td width="66%" valign="top">
 
-**CME DETECTION**
+**KENYON**
 
-<sub>`autonomous coronal mass ejection detection`</sub>
+<sub>`a fruit-fly memory circuit built from its own connectome`</sub>
 
-Two-model TCN + TCAN ensemble over in-situ solar wind plasma at L1 — bulk velocity, proton density, thermal temperature, helium-to-proton ratio and their gradients. Causal dilated convolutions give a 10.6-hour receptive field, so the model only ever looks backwards and stays valid for real-time use.
+The fly's learning centre, the mushroom body, taken from the MaleCNS brain scan (projection neurons → 4,064 Kenyon cells → 97 output neurons), wired exactly as scanned, with the published dopamine learning rule. It learns which odour predicts punishment or reward, holds a punishment and a reward memory at once, and shifts a simulated choice. One learning rate is calibrated to Hige et al. 2015; where the memory lands (96% of it on the paired output cell), how specific it is and which way the choice goes come from the wiring. Negatives reported: no pattern completion, and a second memory in the same compartment overwrites the first.
 
-Beat XGBoost (0.210) and BiLSTM (0.195) on identical data. F1 sits near the physical ceiling for single-point plasma sensing — 30 to 50% of CMEs are stealth events that leave no plasma precursor at all. On the unseen May 2026 eruption it peaked at P = 0.8707, corroborated by a helium-to-proton ratio of 0.2965, roughly 7x the quiet-wind baseline.
+Does the memory reach the body? Barely: on the full graph, 2 of 1,314 descending neurons move (by 2.8% and 0.91% of their rates), through 9 direct synapses. Cut those and the effect collapses.
 
-<img src="https://img.shields.io/badge/tcn%20%2B%20tcan-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/causal%20dilated%20conv-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/weighted%20bce-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
-
-</td>
-<td width="34%" valign="middle">
-
-<img src="https://img.shields.io/badge/BLIND%20P(CME)-0.8707-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
-<br/>
-<img src="https://img.shields.io/badge/VAL%20F1-0.318-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
-<br/>
-<img src="https://img.shields.io/badge/RECEPTIVE%20FIELD-10.6%20H-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
-<br/>
-<img src="https://img.shields.io/badge/ENSEMBLE-0.7%20TCN%20%2B%200.3%20TCAN-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
-
-</td>
-</tr>
-</table>
-
-<table width="100%">
-<tr>
-<td width="66%" valign="top">
-
-**SPACE WEATHER CLI**
-
-<sub>`live interplanetary telemetry`</sub>
-
-Async CLI aggregating NOAA and NASA DONKI feeds, built for headless systems with zero graphical dependencies.
-
-<img src="https://img.shields.io/badge/python-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/rich-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/asyncio-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/pytorch-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/numpy%20%2B%20scipy-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/connectomics-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 <td width="34%" valign="middle">
 
-<img src="https://img.shields.io/badge/FEEDS-NOAA%20%2B%20NASA%20DONKI-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/KENYON%20CELLS-4%2C064-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
 <br/>
-<img src="https://img.shields.io/badge/HEADLESS-ZERO%20GUI%20DEPS-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/BODY%20NEURONS%20MOVED-2%20OF%201%2C314-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<img src="https://img.shields.io/badge/STATUS-RESEARCH-D29922?style=flat-square&labelColor=1F1F1F"/>
+<br/>
+<a href="https://github.com/Aur1ety/Kenyon"><img src="https://img.shields.io/badge/CODE-GITHUB-2E2E2E?style=flat-square&logo=github&logoColor=E8FF4D&labelColor=1F1F1F"/></a>
 
 </td>
 </tr>
@@ -202,20 +185,80 @@ Async CLI aggregating NOAA and NASA DONKI feeds, built for headless systems with
 
 **NEUROPHARMA**
 
-<sub>`drug-drug interaction risk engine`</sub>
+<sub>`drug-drug interaction checker`</sub>
 
-Cross-references patient prescription profiles against pharmacological datasets and generates automated hazard alerts for clinical review. Next.js on Vercel, FastAPI and Docker on Hugging Face.
+Checks every drug pair against DDInter, a curated database of 169,395 graded pairs across 1,610 drugs, shipped inside the page so lookups run in the browser. A pair with no curated grade shows as "Not documented", never as safe. For those gaps, an opt-in LightGBM model on chemistry features can give an estimate (it abstains when unsure), clearly labelled experimental; its accuracy on those pairs is not yet measured.
 
-<img src="https://img.shields.io/badge/next.js-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/fastapi-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/docker-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/hugging%20face-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+React + Vite on Vercel, FastAPI in Docker on Render. Research prototype, not a medical device.
+
+<img src="https://img.shields.io/badge/react%20%2B%20vite-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/fastapi-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/docker-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/lightgbm-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 <td width="34%" valign="middle">
 
-<img src="https://img.shields.io/badge/STATUS-LIVE-39D353?style=flat-square&labelColor=1F1F1F"/>
+<a href="https://neuropharma-nine.vercel.app"><img src="https://img.shields.io/badge/STATUS-LIVE-39D353?style=flat-square&labelColor=1F1F1F"/></a>
 <br/>
-<img src="https://img.shields.io/badge/FRONTEND-NEXT.JS%20%2F%20VERCEL-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/DDINTER-169%2C395%20PAIRS-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 <br/>
-<img src="https://img.shields.io/badge/BACKEND-FASTAPI%20%2F%20DOCKER-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<img src="https://img.shields.io/badge/FRONTEND-REACT%20%2B%20VITE%20%2F%20VERCEL-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<img src="https://img.shields.io/badge/BACKEND-FASTAPI%20%2B%20DOCKER%20%2F%20RENDER-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="66%" valign="top">
+
+**DOOM-x-FLY**
+
+<sub>`a fruit-fly connectome inside a doom agent`</sub>
+
+A 138,968-neuron subgraph of the MaleCNS fruit-fly connectome (Janelia + Google), wiring never trained, run as a recurrent network between a hand-built eye and a trained readout that picks the buttons. In real shareware Doom (E1M1) it reaches the exit in 57% of 100 held-out runs (95% CI 47–66%); feed it its own frames in random order and that drops to 0%, so it steers by what it sees. Whether the fly's specific wiring matters is untested here; an earlier, simpler test suggested random wiring does as well.
+
+The memory half grew into its own project, Kenyon (above).
+
+<img src="https://img.shields.io/badge/pytorch-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/vizdoom-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/connectomics-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+
+</td>
+<td width="34%" valign="middle">
+
+<img src="https://img.shields.io/badge/E1M1%20EXITS-57%25-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
+<br/>
+<img src="https://img.shields.io/badge/SCRAMBLED%20FRAMES-0%25-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<img src="https://img.shields.io/badge/CONNECTOME%20SUBGRAPH-138%2C968%20NEURONS-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<img src="https://img.shields.io/badge/STATUS-RESEARCH%20DEMO-D29922?style=flat-square&labelColor=1F1F1F"/>
+<br/>
+<a href="https://github.com/Aur1ety/DOOM-x-Fly"><img src="https://img.shields.io/badge/CODE-GITHUB-2E2E2E?style=flat-square&logo=github&logoColor=E8FF4D&labelColor=1F1F1F"/></a>
+
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="66%" valign="top">
+
+**MAGNUSON**
+
+<sub>`geomagnetic storm interval detection`</sub>
+
+A nowcaster that flags storm-driving solar-wind intervals in Aditya-L1 magnetometer data. Bx/By/Bz/|B| readings become 9 physics-informed features, a PatchTransformer (trained on 128-minute windows of one-minute data) scores them, and an HMM/Viterbi pass smooths the scores into clean intervals. It detects; it does not forecast onset. On data never used in training it flags the 10–11 October 2024 storm: one event, run on the sensor's raw 10-second data rather than the one-minute data it was trained on, so a sanity check rather than a benchmark.
+
+<img src="https://img.shields.io/badge/pytorch-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/patchtransformer-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/hmm-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/viterbi-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+
+</td>
+<td width="34%" valign="middle">
+
+<img src="https://img.shields.io/badge/DATA-ADITYA--L1%20MAGNETOMETER-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
+<br/>
+<img src="https://img.shields.io/badge/FEATURES-9%20PHYSICS--INFORMED-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
+<br/>
+<img src="https://img.shields.io/badge/OUTPUT-STORM%20INTERVALS-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
 
 </td>
 </tr>
