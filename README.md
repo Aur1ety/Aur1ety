@@ -30,7 +30,7 @@ Most of my work lives at the messy end: raw instrument data, brutal class imbala
 
 <img src="https://raw.githubusercontent.com/Aur1ety/Aur1ety/main/Pixel%20Art%208Bit%20GIF%20by%20pixel%20jeff.gif" width="88%"/>
 
-<sub><code>upper management</code></sub>
+<sub><code>upper management</code> · GIF by Pixel Jeff</sub>
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ An Einthoven's-law audit of all 21,799 PTB-XL recordings flags 57 (0.26%) whose 
 
 <sub>`a fruit-fly memory circuit built from its own connectome`</sub>
 
-The fly's learning centre, the mushroom body, taken from the MaleCNS brain scan (projection neurons → 4,064 Kenyon cells → 97 output neurons), wired exactly as scanned, with the published dopamine learning rule. It learns which odour predicts punishment or reward, holds a punishment and a reward memory at once, and shifts a simulated choice. One learning rate is calibrated to Hige et al. 2015; where the memory lands (96% of it on the paired output cell), how specific it is and which way the choice goes come from the wiring. Negatives reported: no pattern completion, and a second memory in the same compartment overwrites the first.
+The fly's learning centre, the mushroom body, taken from the MaleCNS brain scan (projection neurons → 4,064 Kenyon cells → 97 output neurons), built from the scan's real synapse counts, with the published dopamine learning rule. It learns which odour predicts punishment or reward, holds a punishment and a reward memory at once, and shifts a simulated choice. One learning rate is calibrated to Hige et al. 2015; where the memory lands (96% of it on the paired output cell), how specific it is and which way the choice goes come from the wiring. Negatives reported: no pattern completion, and a second memory in the same compartment overwrites the first.
 
 Does the memory reach the body? Barely: on the full graph, 2 of 1,314 descending neurons move (by 2.8% and 0.91% of their rates), through 9 direct synapses. Cut those and the effect collapses.
 
