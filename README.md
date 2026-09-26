@@ -212,37 +212,6 @@ React + Vite on Vercel, FastAPI in Docker on Render. Research prototype, not a m
 <tr>
 <td width="66%" valign="top">
 
-**DOOM-x-FLY**
-
-<sub>`a fruit-fly connectome inside a doom agent`</sub>
-
-A 138,968-neuron subgraph of the MaleCNS fruit-fly connectome (Janelia + Google), wiring never trained, run as a recurrent network between a hand-built eye and a trained readout that picks the buttons. In real shareware Doom (E1M1) it reaches the exit in 57% of 100 held-out runs (95% CI 47–66%); feed it its own frames in random order and that drops to 0%, so it steers by what it sees. Whether the fly's specific wiring matters is untested here; an earlier, simpler test suggested random wiring does as well.
-
-The memory half grew into its own project, Kenyon (above).
-
-<img src="https://img.shields.io/badge/pytorch-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/vizdoom-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/connectomics-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
-
-</td>
-<td width="34%" valign="middle">
-
-<img src="https://img.shields.io/badge/E1M1%20EXITS-57%25-E8FF4D?style=flat-square&labelColor=1F1F1F"/>
-<br/>
-<img src="https://img.shields.io/badge/SCRAMBLED%20FRAMES-0%25-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
-<br/>
-<img src="https://img.shields.io/badge/CONNECTOME%20SUBGRAPH-138%2C968%20NEURONS-2E2E2E?style=flat-square&labelColor=2E2E2E"/>
-<br/>
-<img src="https://img.shields.io/badge/STATUS-RESEARCH%20DEMO-D29922?style=flat-square&labelColor=1F1F1F"/>
-<br/>
-<a href="https://github.com/Aur1ety/DOOM-x-Fly"><img src="https://img.shields.io/badge/CODE-GITHUB-2E2E2E?style=flat-square&logo=github&logoColor=E8FF4D&labelColor=1F1F1F"/></a>
-
-</td>
-</tr>
-</table>
-
-<table width="100%">
-<tr>
-<td width="66%" valign="top">
-
 **MAGNUSON**
 
 <sub>`geomagnetic storm interval detection`</sub>
