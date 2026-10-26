@@ -67,7 +67,7 @@ On SWAN-SF, the forecasting system reached **TSS 0.811** under a leakage-audited
 
 <sub><code>ECG CLASSIFICATION + DATASET AUDIT</code></sub>
 
-A controlled PTB-XL study comparing raw 12-lead ECGs with reconstructed 3-D vectorcardiograms. A 1-D ResNet reached **macro-AUC 0.930**, while VCG augmentation produced no measurable improvement. A dataset-wide lead-consistency audit checked all **21,799 recordings** and flagged 57 for review.
+A controlled PTB-XL study testing whether adding reconstructed 3-D vectorcardiogram channels to the raw 12-lead ECG helps a classifier. A 1-D ResNet reached **macro-AUC 0.930**, while VCG augmentation produced no measurable improvement. A limb-lead identity audit of all **21,799 recordings** at both sampling rates flagged 57 at 100 Hz and 9 at 500 Hz (only 3 shared), and a cross-check between the 100 Hz and 500 Hz files exposed chest-lead faults of up to **44 mV** that the limb-lead identities cannot see. Paper in preparation.
 
 <img src="https://img.shields.io/badge/MACRO%20AUC-0.930-E8FF4D?style=flat-square&labelColor=1F1F1F"/> <img src="https://img.shields.io/badge/AUDITED-21%2C799%20ECGS-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <a href="https://einthoven-aurasaur.vercel.app"><img src="https://img.shields.io/badge/LIVE-ECG%20EXPLORER-2E2E2E?style=flat-square&logo=vercel&logoColor=E8FF4D&labelColor=1F1F1F"/></a> <a href="https://github.com/Aur1ety/Einthoven-model-for-cardiac-arrhythmia-and-pathology-detection"><img src="https://img.shields.io/badge/CODE-GITHUB-2E2E2E?style=flat-square&logo=github&logoColor=E8FF4D&labelColor=1F1F1F"/></a>
 
@@ -83,9 +83,9 @@ A controlled PTB-XL study comparing raw 12-lead ECGs with reconstructed 3-D vect
 
 <sub><code>GEOMAGNETIC STORM INTERVAL DETECTION</code></sub>
 
-A real-time pipeline for identifying storm-driving intervals in Aditya-L1 magnetometer data. It combines physics-informed features, a patch-attention Transformer, and HMM/Viterbi smoothing across more than **one million** ten-second observations.
+A pipeline for identifying storm-driving intervals in Aditya-L1 magnetometer data. It resamples more than **one million** ten-second MAG samples to one-minute medians to train a patch-attention Transformer over physics-informed features, and its blind-test runner adds HMM/Viterbi smoothing.
 
-<img src="https://img.shields.io/badge/F1-0.919-E8FF4D?style=flat-square&labelColor=1F1F1F"/> <img src="https://img.shields.io/badge/HSS-0.908-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <img src="https://img.shields.io/badge/FAR-0.0044-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <a href="https://github.com/Aur1ety/Magnuson"><img src="https://img.shields.io/badge/CODE-GITHUB-2E2E2E?style=flat-square&logo=github&logoColor=E8FF4D&labelColor=1F1F1F"/></a>
+<img src="https://img.shields.io/badge/ADITYA--L1-MAG%20L2-E8FF4D?style=flat-square&labelColor=1F1F1F"/> <img src="https://img.shields.io/badge/PATCH%20TRANSFORMER%20%2B%20HMM-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <a href="https://github.com/Aur1ety/Magnuson"><img src="https://img.shields.io/badge/CODE-GITHUB-2E2E2E?style=flat-square&logo=github&logoColor=E8FF4D&labelColor=1F1F1F"/></a>
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ A real-time pipeline for identifying storm-driving intervals in Aditya-L1 magnet
 
 <sub><code>DRUG–DRUG INTERACTION EXPLORER</code></sub>
 
-A React/FastAPI platform that keeps curated interaction evidence separate from model-generated estimates. The LightGBM pipeline was trained on **209k DDInter pairs**, reaching **macro-F1 0.73**; a drug-disjoint evaluation exposed a generalisation drop to **F1 0.44**. It is a research prototype, not a medical device.
+A React/FastAPI platform that keeps curated interaction evidence separate from model-generated estimates. The LightGBM pipeline was trained on **209k drug pairs** (169k graded DDInter interactions plus 40k random pairs absent from DDInter) and logged **macro-F1 0.73** on a random split; a drug-disjoint evaluation exposed a generalisation drop to **F1 0.44**. It is a research prototype, not a medical device.
 
 <img src="https://img.shields.io/badge/MACRO%20F1-0.73-E8FF4D?style=flat-square&labelColor=1F1F1F"/> <img src="https://img.shields.io/badge/DRUG--DISJOINT%20F1-0.44-2E2E2E?style=flat-square&labelColor=2E2E2E"/> <a href="https://neuropharma-nine.vercel.app"><img src="https://img.shields.io/badge/STATUS-LIVE-2E2E2E?style=flat-square&logo=vercel&logoColor=E8FF4D&labelColor=1F1F1F"/></a> <a href="https://github.com/Aur1ety/NeuroPHarma-Drug-sequencer"><img src="https://img.shields.io/badge/CODE-GITHUB-2E2E2E?style=flat-square&logo=github&logoColor=E8FF4D&labelColor=1F1F1F"/></a>
 
@@ -123,7 +123,7 @@ A neural simulation of reward- and punishment-based odour learning built from Ma
 </tr>
 </table>
 
-<sub><strong>ALSO:</strong> <a href="https://github.com/Aur1ety/Model-for-Coronal-Mass-Ejection-detection">CME Detection</a> — a causal TCN + temporal-attention ensemble for identifying coronal-mass-ejection signatures in solar-wind plasma data.</sub>
+<sub><strong>ALSO:</strong> <a href="https://github.com/Aur1ety/Model-for-Coronal-Mass-Ejection-detection">CME Detection</a>: a causal TCN prototype for flagging coronal-mass-ejection signatures in Aditya-L1 solar-wind plasma data.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:242424,100:2E2E2E&height=54&section=header&text=CORE%20TECHNOLOGIES&fontSize=19&fontColor=E8FF4D&fontAlign=17&fontAlignY=58" width="100%" alt="Core technologies"/>
 
@@ -145,14 +145,6 @@ A neural simulation of reward- and punishment-based odour learning built from Ma
 <td><img src="https://skillicons.dev/icons?i=react,nextjs,js,vercel&theme=dark"/></td>
 </tr>
 </table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:242424,100:2E2E2E&height=54&section=header&text=ACTIVITY&fontSize=19&fontColor=E8FF4D&fontAlign=11&fontAlignY=58" width="100%" alt="Activity"/>
-
-<div align="center">
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Aur1ety&graph_type=bar&bg_color=2E2E2E&color=A0A0A0&line=E8FF4D&point=E8FF4D&title_color=E8FF4D&border_color=4A4A4A&custom_title=COMMIT%20ACTIVITY"/>
-
-</div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:242424,100:2E2E2E&height=54&section=header&text=NOW&fontSize=19&fontColor=E8FF4D&fontAlign=8&fontAlignY=58" width="100%" alt="Now"/>
 
